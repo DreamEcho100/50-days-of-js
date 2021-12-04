@@ -22,7 +22,7 @@ Note: If you are given an array with multiple answers, return the lowest correct
 
 ## CHALLENGES (0/4 DONE)
 
-- `findEvenIndex([1,2,3,4,3,2,1]` should return `3`.
+- `findEvenIndex([1,2,3,4,3,2,1])` should return `3`.
 
 - `findEvenIndex([1,100,50,-51,1,1])` should return `1`.
 
