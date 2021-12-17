@@ -2,16 +2,17 @@ var findEvenIndex = function (arr) {
     // const equalIndex: number = 0;
     var leftSum = 0;
     var rightSum = 0;
-    var i, j;
+    var i;
+    var j;
     for (i = 1; i < arr.length - 1; i++) {
-        leftSum += arr[i - 1];
+        leftSum = 0;
         rightSum = 0;
-        for (j = i; j < arr.length - 1; j++) {
-            rightSum += arr[j + 1];
-        }
-        if (leftSum === rightSum) {
+        for (var j_1 = 0; j_1 < i; j_1++)
+            leftSum += arr[j_1];
+        for (var j_2 = i + 1; j_2 < arr.length; j_2++)
+            rightSum += arr[j_2];
+        if (leftSum === rightSum)
             return i;
-        }
     }
     return -1;
 };
