@@ -6,10 +6,10 @@ Write a function `toWeirdCase` that accepts a string, and returns the same strin
 
 The passed in string will only consist of alphabetical characters and spaces(' '). Spaces will only be present if there are multiple words. Words will be separated by a single space(' ').
 
-## CHALLENGES (0/3 DONE)
+## CHALLENGES (3/3 DONE)
 
-- [ ] `toWeirdCase('This')` returns `'ThIs'`.
+- [x] `toWeirdCase('This')` returns `'ThIs'`.
 
-- [ ] `toWeirdCase('This is a test')` returns `'ThIs iS A TeSt'`.
+- [x] `toWeirdCase('This is a test')` returns `'ThIs iS A TeSt'`.
 
-- [ ] `toWeirdCase('A test case')` returns `'A TeSt cAsE'`.
+- [x] `toWeirdCase('A test case')` returns `'A TeSt cAsE'`.
